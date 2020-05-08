@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+ <head> 
+ </head>
+ <body>
+  <h1 autofocus> HI </h1>   
+  <link rel="stylesheet" type="text/css" href="look.css"> 
+  <link rel="textsheet" type="text/html" href="link.html">
+  <section class="Wie geh es dir"> 
+   <h3> wie <a href="https://james-hi.github.io/Schule_emag/link.html"> geht </a> es dir </h3> 
+   <form> 
+    <select id="selecter"> <option value="">Wählen</option> <option value="Das ist schön">Gut</option> <option value="Du Armer"> Schlecht</option> </select> 
+    <br> 
+    <br> 
+    <input type="text" id="output" readonly> 
+    <script>
+        document.getElementById("selecter").addEventListener("change", function(event)
+        {
+        document.getElementById("output").value = this.value; 
+        });
+    </script> 
+   </form> 
+  </section>  
+  <footer> 
+   <p class="programminghero">Learned and developed this site with <a href="http://www.programming-hero.com">Programming Hero</a></p> 
+  </footer>
+ </body>
+</html>
